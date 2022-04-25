@@ -1,6 +1,6 @@
 // Packages needed for this application
 // generator is where generatemarkdown and its associated functions are located and is required to parse all of the data into the markdown format that makes the readme function and look nice
-const generator = require("./generateMarkdown");
+const generator = require("./utils/generateMarkdown");
 const inquirer = require("inquirer");
 const fs = require('fs');
 
