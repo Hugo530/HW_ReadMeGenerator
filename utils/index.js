@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inq = require('inquirer');
-const genMD = require('./utils/generateMarkdown');
+
 // TODO: Create an array of questions for user input
 
 const licenseNames = [];
